@@ -1,0 +1,100 @@
+html {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+/* the counter used for who wins */
+
+.player-counter {
+  display: flex;
+  justify-content: center;
+}
+.player-counter-title {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  padding-right: 40px;
+}
+.computer-counter-title {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  padding-left: 40px;
+}
+
+/* div2 is images an versus sign */
+
+.div2 {
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* sonic div */
+
+.player-image-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sonic-img {
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+/* Versus */
+
+.vs-div {
+  display: flex;
+  align-items: center;
+}
+.vs-img {
+  width: 200px;
+  height: 100px;
+}
+
+/* knuckles div */
+
+.computer-image-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.knuckles-img {
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+/* buttons for the game, rock, paper, scissors... */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.rock {
+  width: 110px;
+  height: 50px;
+  border-radius: 50%;
+}
+.paper {
+  width: 110px;
+  height: 50px;
+}
+.scissors {
+  width: 50px;
+  height: 50px;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  padding: 10px;
+  color: white;
+  background-color: cyan;
+  border-radius: 50%;
+}
